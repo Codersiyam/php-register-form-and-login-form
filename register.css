@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #11659c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+.error{
+    border: 2px solid red !important ;
+}
+.error::placeholder{
+    color: red !important;
+}
+.register{
+   max-width: 100%;
+   width: 500px;
+   padding: 40px;
+   background: #fff;
+   border-radius: 10px;
+   box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+
+}
+.re_logo{
+    color: #067ece;
+    margin-bottom: 25px;
+
+}
+.re_itams{
+    margin-bottom: 15px;
+}
+.name{
+    font-size: 18px;
+    color: #067ece;
+    text-align: start;
+}
+.re_info{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver ;
+    border-radius: 5px;
+    outline: none;
+}
+.re_info:focus{
+    border: 2px solid rgb(0, 174, 255) ;
+}
+.register_button{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.re_btn{
+    padding: 10px 40px ;
+    border: none;
+    background: #067ece;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.re_btn:active{
+    background: rgb(77, 23, 23);
+}
+.form_link{
+    text-align: center;
+    margin-top: 25px;
+    color: #067ece;
+}
+i{
+    background: #067ece;
+    color: #fff;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    border-left:1px solid rgb(61, 60, 60) ;
+}
+i:active{
+    background-color: red ;
+}
